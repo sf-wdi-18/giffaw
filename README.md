@@ -23,3 +23,6 @@ Workflow & Submission:
 * `git add` and `git commit` your changes.
 * `git push` to update the repo on your gitHub account.
 * Submit the link to the `giffaw` repo on your gitHub account.
+
+Hint(s):
+* Try thinking of the exercise in two parts: (1) displaying the mock data from `mock_data.js` and (2) using the actual data from the Giphy API.
