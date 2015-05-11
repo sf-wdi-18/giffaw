@@ -6,7 +6,7 @@ Use the Giphy API documentation at https://github.com/Giphy/GiphyAPI
 
 Requirements:
 
-* A user can see the top 25 trending gifs when the page loads
+* A user can see the top 25 gifs from `mock_data.js` when the page loads
 * A user can search for gifs, using the input field
 * Bonus: A user can "load more" gifs
 
