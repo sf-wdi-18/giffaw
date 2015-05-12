@@ -1,23 +1,44 @@
 body {
   color: #333;
   font-family: Helvetica, Arial, sans-serif;
-  background-color: skyblue; /* Sanity Check! */
+  background-color: black; /* Sanity Check! */
 }
 
-input {
+p {
+  text-align: center;
+}
+
+button, input {
   display: block;
-  width: 30%;
   font-size: 2em;
   margin: 0 auto;
   position: fixed;
   top: 10%;
+}
+
+input {
+  width: 25%;
   left: 35%;
+}
+
+button {
+  left: 60%;
+}
+
+button:hover{
+  background-color: white;
 }
 
 @media all and (max-width: 600px) {
   input {
-    width: 100%;
+    width: 80%;
     left: 0;
     top: 0;
+  }
+
+  button {
+    top: 0;
+    right: 0;
+    left: initial;
   }
 }
