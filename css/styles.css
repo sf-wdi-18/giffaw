@@ -4,7 +4,11 @@ body {
   background-color: skyblue; /* Sanity Check! */
 }
 
-input {
+.row {
+  text-align: center;
+}
+
+/*input {
   display: block;
   width: 30%;
   font-size: 2em;
@@ -12,7 +16,7 @@ input {
   position: fixed;
   top: 10%;
   left: 35%;
-}
+}*/
 
 @media all and (max-width: 600px) {
   input {
